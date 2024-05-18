@@ -1,0 +1,93 @@
+
+.label{
+        -fx-background-color: skyblue;
+        -fx-padding: 20px 25px;
+        -fx-text-fill: white;
+        -fx-border-radius: 20px;
+        -fx-font-weight: bold;
+        -fx-alignment: top-center;
+        -fx-font-size: 20px;
+        -fx-background-radius: 20px;
+}
+
+.button-start {
+    -fx-background-color: black;
+     -fx-margin: 10px;
+     -fx-padding: 30px 45px;
+        -fx-text-fill: white;
+        -fx-border-radius: 30px;
+        -fx-cursor: hand;
+        -fx-font-weight: bold;
+        -fx-alignment: center;
+        -fx-font-size: 30px;
+        -fx-background-radius: 30px;
+}
+
+.button-start:hover {
+    -fx-background-color: red;
+
+}
+.label-header {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-padding: 10px;
+}
+
+.answer-button {
+    -fx-font-size: 16px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+}
+
+.answer-button:hover {
+    -fx-background-color: red;
+}
+
+.play-again-button, .quit-button {
+    -fx-font-size: 16px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+}
+
+.play-again-button:hover, .quit-button:hover {
+    -fx-background-color: red;
+}
+
+.option-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+}
+
+.option-button:hover {
+    -fx-background-color: red;
+}
+
+.question-label {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+
+.end-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+}
+
+.end-button:hover {
+    -fx-background-color: red;
+}
+
+
+
+

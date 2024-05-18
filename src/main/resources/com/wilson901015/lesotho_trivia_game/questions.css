@@ -1,0 +1,198 @@
+/* Main layout styling */
+.main-layout {
+    -fx-background-color: skyblue;
+}
+
+/* Level label styling */
+.level-label {
+    -fx-background-color: silver;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+}
+
+/* Question label styling */
+.question-label {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+}
+
+/* Answer button styling */
+.answer-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.answer-button:hover {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+/* Timer label styling */
+.timer-label {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+/* Levels label styling */
+.levels-label {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+}
+
+/* Correction label styling */
+.correct-label {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+}
+
+.incorrect-label {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px 10px;
+}
+
+/* End screen labels */
+.end-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.score-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+/* Play again button styling */
+.play-again-button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.play-again-button:hover {
+    -fx-background-color: darkgreen;
+}
+
+/* Quit button styling */
+.quit-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.quit-button:hover {
+    -fx-background-color: darkred;
+}
+
+/* End message labels */
+.passed-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}
+
+.failed-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+/* Video controls button styling */
+.media-control-button {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.media-control-button:hover {
+    -fx-background-color: #005bb5;
+}
+.end-label{
+-fx-background-color: red;
+ -fx-text-fill: white;
+ -fx-font-size: 16;
+ -fx-padding: 10px;
+  -fx-background-radius: 10px;
+  -fx-border-radius: 10px;
+  -fx-padding: 5px 10px;
+}
+.score-label{
+-fx-background-color: blue;
+-fx-text-fill: white;
+-fx-font-size: 16;
+-fx-background-radius: 10px;
+-fx-border-radius: 10px;
+-fx-padding: 5px 10px;
+}
+.play-button{
+-fx-background-color: silver;
+     -fx-margin: 10px;
+     -fx-padding: 5px 10px;
+        -fx-text-fill: white;
+        -fx-border-radius: 10px;
+        -fx-cursor: hand;
+        -fx-font-weight: bold;
+        -fx-alignment: center;
+        -fx-font-size: 14px;
+        -fx-background-radius: 10px;
+}
+.replay-button{
+-fx-background-color: silver;
+     -fx-margin: 10px;
+     -fx-padding: 5px 10px;
+        -fx-text-fill: white;
+        -fx-border-radius: 10px;
+        -fx-cursor: hand;
+        -fx-font-weight: bold;
+        -fx-alignment: center;
+        -fx-font-size: 14px;
+        -fx-background-radius: 10px;
+}
+.play-button,
+.replay-button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.play-button:hover,
+.replay-button:hover {
+    -fx-background-color: #0b7dda;
+}
